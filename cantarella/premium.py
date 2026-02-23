@@ -77,7 +77,7 @@ async def my_plan(client: Client, message: Message):
 
     buttons = InlineKeyboardMarkup([
         [InlineKeyboardButton("💎 View Premium Plans", callback_data="premium_plans_btn")],
-        [InlineKeyboardButton("📞 Contact Admin", url="https://t.me/about_zani")]
+        [InlineKeyboardButton("📞 Contact Admin", url="https://t.me/Hasjsgdkd_bot")]
     ])
 
     await message.reply_text(
@@ -108,12 +108,12 @@ async def show_premium_plans(message_or_query):
         "</blockquote>\n\n"
         "<b>💲 Pricing:</b>\n"
         "• <b>1 Month:</b> ₹50 / $1\n"
-        "• <b>Lifetime:</b> ₹200 / $4\n\n"
+        "• <b>Lifetime:</b> ₹2000 / $25\n\n"
         "<i>Tap the button below to buy instantly.</i>"
     )
 
     buttons = InlineKeyboardMarkup([
-        [InlineKeyboardButton("💳 Buy Premium Now", url="https://t.me/DmOwner")],
+        [InlineKeyboardButton("💳 Buy Premium Now", url="https://t.me/Hasjsgdkd_bot")],
         [InlineKeyboardButton("⬅️ Back to My Plan", callback_data="myplan_back_btn")]
     ])
 
