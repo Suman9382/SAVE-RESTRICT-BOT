@@ -183,8 +183,8 @@ async def send_start(client: Client, message: Message):
              InlineKeyboardButton("⚙️ Settings", callback_data="settings_btn")
         ],
         [
-            InlineKeyboardButton('📢 Official Channel', url='https://t.me/ssc_cgl_pre_2026'),
-            InlineKeyboardButton('👨‍💻 Developer', url='https://t.me/lecturerequst_bot')
+            InlineKeyboardButton('📢 Official Channel', url='https://t.me/Hasjsgdkd_bot'),
+            InlineKeyboardButton('👨‍💻 Developer', url='https://t.me/Hasjsgdkd_bot')
         ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
