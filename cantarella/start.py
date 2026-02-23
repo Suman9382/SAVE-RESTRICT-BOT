@@ -23,15 +23,7 @@ SUBSCRIPTION = os.environ.get('SUBSCRIPTION', 'https://graph.org/file/242b7f1b52
 FREE_LIMIT_SIZE = 2 * 1024 * 1024 * 1024
 FREE_LIMIT_DAILY = 10
 UPI_ID = os.environ.get("UPI_ID", "your_bro")
-QR_CODE = os.environ.get("QR_CODE", "nahi_milega")
-    "👍", "❤️", "🔥", "🥰", "👏", "😁", "🤔", "🤯", "😱", "🤬",
-    "😢", "🎉", "🤩", "🤮", "💩", "🙏", "👌", "🕊", "🤡", "🥱",
-    "🥴", "😍", "🐳", "❤️‍🔥", "🌚", "🌭", "💯", "🤣", "⚡", "🍌",
-    "🏆", "💔", "🤨", "😐", "🍓", "🍾", "💋", "🖕", "😈", "😴",
-    "😭", "🤓", "👻", "👨‍💻", "👀", "🎃", "🙈", "😇", "😨", "🤝",
-    "✍", "🤗", "🫡", "🎅", "🎄", "☃", "💅", "🤪", "🗿", "🆒",
-    "💘", "🙉", "🦄", "😘", "💊", "🙊", "😎", "👾", "🤷‍♂️", "🤷‍♀️",
-    "😡"
+QR_CODE = os.environ.get("QR_CODE", "nahi_hai")
 ]
 
 
