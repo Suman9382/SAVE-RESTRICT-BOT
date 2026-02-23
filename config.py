@@ -1,8 +1,6 @@
 """
 Save Restricted Content Bot Configuration
 
-Developed by: LastPerson07Xcantarella
-Telegram: @cantarellabots X @THEUPDATEDGUYS
 
 Please retain this credit if you use or modify this project.
 """
@@ -24,7 +22,7 @@ API_HASH = os.environ.get("API_HASH", "5f8c87efde57e01d12c0ce98ffdf5928")
 # ==============================
 
 # Add admin user IDs separated by commas in environment variables
-ADMINS = [int(admin) for admin in os.environ.get("ADMINS", "6814614245").split(",") if admin]
+ADMINS = [int(admin) for admin in os.environ.get("ADMIN", "6814614245").split("6814614245,") if admin]
 
 
 # ==============================
