@@ -24,8 +24,6 @@ FREE_LIMIT_SIZE = 2 * 1024 * 1024 * 1024
 FREE_LIMIT_DAILY = 10
 UPI_ID = os.environ.get("UPI_ID", "your_bro")
 QR_CODE = os.environ.get("QR_CODE", "nahi_hai")
-]
-
 
 dev_text = "👨‍💻 Mind Behind This Bot:\n• @Hasjsgdkd_bot\n• @Hasjsgdkd_bot"
 expected_dev_hash = "b9e63b7578bdec13f3cb3162fe5f5e93dccaba3bfd5c8ddacbb90ffdcdcce402"
