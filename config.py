@@ -29,7 +29,7 @@ ADMINS = [int(admin) for admin in os.environ.get("ADMIN", "6814614245").split("6
 # Database Configuration
 # ==============================
 
-DB_URI = os.environ.get("DB_URI", "")
+DB_URI = os.environ.get("DB_URL", "")
 DB_NAME = os.environ.get("DB_NAME", "saverestricted02")
 
 
